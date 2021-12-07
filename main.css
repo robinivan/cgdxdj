@@ -1,0 +1,100 @@
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+    background-color: #ffffff;
+    font-family: "Arial Black";
+    opacity: 0.8;
+
+}
+body{
+    margin: 0px;
+}
+h1{
+    opacity: 1;
+}
+
+.blok{
+    width: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+}
+.blok2{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.nav{
+    background: #022259;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 25px;
+    height: 40px;
+    color: white;
+}
+.image_logo{
+    height: 25px;
+    width: 134px;
+    margin-right: 10px;
+}
+.img{
+    height: 600px;
+    width: 600px;
+}
+.img2{
+    height: 400px;
+    width: 50vw;
+}
+.header{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://photonics.ixblue.com/sites/default/files/styles/header_desktop_home/public/2021-06/satellite_in_space_1.jpg?itok=LJP0B_20");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.step1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.step2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.step3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.footer{
+
+}
